@@ -1,0 +1,112 @@
+.layout {
+  display: grid;
+  grid-template-columns: 610px 1310px;
+  grid-template-rows: 900px;
+  grid-column-gap: 0px;
+  grid-row-gap: 12px;
+font-family: 'Raleway', sans-serif;
+}
+
+.layout-main {
+  border-left-width: 1px;
+  border-right-width: 1px;
+  margin: 0 auto;
+  max-width: 660px;
+  min-height: calc(100vh - 128px);
+  font-family: 'Raleway', sans-serif;
+}
+
+.layout-title {
+      align-items: center;
+    border-bottom-width: 1px;
+    display: flex;
+    height: 52px;
+    align-content: stretch;
+    color: #121625; 
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+font-family: 'Raleway', sans-serif;
+
+}
+
+
+.layout-footer {
+  align-items: center;
+  border-top-width: 1px;
+  height: 64px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: -0.02em;
+color: #A5A8B3;
+}
+
+.layout-footer div {
+  padding-top: 30px;
+}
+
+
+.layout1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 200px 80px 0 80px ;
+font-family:Raleway;
+}
+
+.layout2 {
+  background-image: url(../Layout//laptop2.jpg);
+  width: 1310px;
+  height: 900px;
+  position: relative;
+}
+
+
+.Check {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 450px;
+  overflow: auto;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.Check div {
+  width: 50%;
+  height: 50px;
+  margin: 1px;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+.Check div a {
+  text-decoration: none;
+  color:#32D4A4; 
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+span.Alumno {
+  color:#32D4A4; 
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+margin-left: 5px;
+font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+  font-weight: lighter;
+  margin:0px; 
+  
+}
+
